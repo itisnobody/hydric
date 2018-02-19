@@ -1,314 +1,315 @@
 html {
-	font-family: 'Myriad Pro', sans-serif;
-	font-size: 16px;
-	line-height: 1;
-	background-color: #fff;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color: #fff;
 }
 
-body {
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-size: 3rem;
-	font-weight: unset;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 3rem;
+    font-weight: unset;
 }
 
 section {
-	/* padding: 6.25rem 0; */
-	padding: 120px 0;
-	/* letter-spacing: -0.72px; */
+    /* padding: 6.25rem 0; */
+    padding: 120px 0;
+    /* letter-spacing: -0.72px; */
 }
 
 .wrap {
-	/* position: relative; */
-	/* width: 1400px; */
-	/* max-width: 1400px; */
-	/* margin: 0 auto; */
+    /* position: relative; */
+    /* width: 1400px; */
+    /* max-width: 1400px; */
+    /* margin: 0 auto; */
 }
 
 .header {
-	color: #fff;
-	background-color: #528354;
-	background-image: url('../img/bg-header.png');
-	padding: 1.5rem 0 6.5rem;
+    color: #fff;
+    background-color: #528354;
+    background-image: url('../img/bg-header.png');
+    padding: 1.5rem 0 6.5rem;
 }
 
 .header__wrap {
-	max-width: 980px;
-	margin: 0 auto;
-	line-height: 5rem;
-	margin-bottom: 4.5rem;
+    max-width: 980px;
+    margin: 0 auto;
+    line-height: 5rem;
+    margin-bottom: 4.5rem;
 }
 
 .logo {
-	font-family: 'Myriad Pro - Bold', sans-serif;
-	font-size: 32px;
+    font-family: 'Myriad Pro - Bold', sans-serif;
+    font-size: 32px;
 }
 
 .logo::before {
-	display: inline-block;
-	content: '';
-	position: relative;
-	top: 4px;
-	width: 56px;
-	height: 33px;
-	margin-right: 12px;
-	background-image: url('../img/logo.png');
+    display: inline-block;
+    content: '';
+    position: relative;
+    top: 4px;
+    width: 56px;
+    height: 33px;
+    margin-right: 12px;
+    background-image: url('../img/logo.png');
 }
 
 .nav {
-	float: right;
-	font-size: 21px;
-	letter-spacing: -0.36px;
+    float: right;
+    font-size: 21px;
+    letter-spacing: -0.36px;
 }
 
 .nav__item {
-	display: inline-block;
-	font-family: 'Myriad Pro - Semibold';
-	line-height: 1em;
-	margin: 0 0.3em;
-	padding: 0.4em 0.7em;
+    display: inline-block;
+    font-family: 'Myriad Pro - Semibold';
+    line-height: 1em;
+    margin: 0 0.3em;
+    padding: 0.4em 0.7em;
 }
 
 .nav__item:hover {
-	border: 0.15em solid #fff;
-	margin: 0 0.15em;
+    border: 0.15em solid #fff;
+    margin: 0 0.15em;
 }
 
 .title {
-	text-align: center;
-	letter-spacing: -1.07px;
-	margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: -1.07px;
+    margin-bottom: 1rem;
 }
 
 .title__caption {
-	text-align: center;
-	font-size: 1.5rem;
-	margin: 12px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 12px auto;
 }
 
 .melon__wrap {
-	position: relative;
+    position: relative;
 }
 
 .melon {
-	display: block;
-	margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .header .melon {
-	margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .flavor .title,
 .plans .title {
-	color: #4e4e4e;
+    color: #4e4e4e;
 }
 
 .flavor .title__caption,
-.plans  .title__caption {
-	color: #737070;
+.plans .title__caption {
+    color: #737070;
 }
 
 .flavor {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .flavor .melon {
-	margin: 4.5rem auto 0;
+    margin: 4.5rem auto 0;
 }
 
 .health {
-	color: #fff;
-	padding: 6rem 0;
-	background-color: #2b342b;
-	position: relative;
+    color: #fff;
+    padding: 6rem 0;
+    background-color: #2b342b;
+    position: relative;
 }
 
 .health .melon {
-	margin-top: 3rem;
+    margin-top: 3rem;
 }
 
 .melon__component {
-	position: absolute;
-	top: 20px;
-	left: 50%;
-	margin-left: 83px;
-	font-size: 22px;
-	color: #e5e5e5;
-	letter-spacing: -0.72px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: 83px;
+    font-size: 22px;
+    color: #e5e5e5;
+    letter-spacing: -0.72px;
 }
 
 .melon__component::after {
-	position: relative;
-	content: '';
-	display: block;
-	width: 220px;
-	height: 70px;
-	background-image: url('../img/melon-sprite.png');
+    position: relative;
+    content: '';
+    display: block;
+    width: 220px;
+    height: 70px;
+    background-image: url('../img/melon-sprite.png');
 }
 
 .melon__protein {
-	text-align: right;
+    text-align: right;
 }
 
 .melon__protein::after {
-	background-position: -387px 0px;	
+    background-position: -387px 0px;
 }
 
 .melon__water {
-	top: 130px;
-	margin-left: 20px;
-	text-align: right;
+    top: 130px;
+    margin-left: 20px;
+    text-align: right;
 }
 
 .melon__water::after {
-	background-position: -323px -100px;
-	height: 25px;
-	top: -11px;
+    background-position: -323px -100px;
+    height: 25px;
+    top: -11px;
 }
 
 .melon__calories {
-	margin: 0;
-	margin-right: 98px;
-	left: auto;
-	right: 50%;
-	top: 106px;
+    margin: 0;
+    margin-right: 98px;
+    left: auto;
+    right: 50%;
+    top: 106px;
 }
 
 .melon__calories::after {
-	background-position: 0px -55px;
-	height: 36px;
-	top: -31px;
-	width: 205px;
-
+    background-position: 0px -55px;
+    height: 36px;
+    top: -31px;
+    width: 205px;
 }
 
 .melon__fat {
-	margin: 0;
-	left: auto;
-	right: 50%;
-	top: 190px;
-	margin-right: -9px;
+    margin: 0;
+    left: auto;
+    right: 50%;
+    top: 190px;
+    margin-right: -9px;
 }
 
 .melon__fat::after {
-	background-position: -112px -160px;
-	height: 25px;
-	width: 200px;
-	top: -10px;
+    background-position: -112px -160px;
+    height: 25px;
+    width: 200px;
+    top: -10px;
 }
 
 .plans {
-	padding-bottom: 1rem;
-	background-color: #e9ede9;
+    padding-bottom: 1rem;
+    background-color: #e9ede9;
 }
 
 .plans__wrap {
-	max-width: 980px;
-	font-size: 0;
-	text-align: center;
-	margin: 3rem auto;
+    max-width: 980px;
+    font-size: 0;
+    text-align: center;
+    margin: 3rem auto;
 }
 
 .plans__item {
-	display: inline-block;
-	font-size: 1rem;
-	width: 31%;
-	/* min-width: 200px; */
-	margin: 3rem 1%;
-	background-color: #d3cfcf;
-	text-align: center;
-	padding: 2em 0 2.5em;
+    display: inline-block;
+    font-size: 1rem;
+    width: 31%;
+    /* min-width: 200px; */
+    margin: 3rem 1%;
+    background-color: #d3cfcf;
+    text-align: center;
+    padding: 2em 0 2.5em;
 }
 
 .plans__title {
-	color: #afacac;
-	font-size: 2rem;
-	margin-bottom: 1.25em;
+    color: #afacac;
+    font-size: 2rem;
+    margin-bottom: 1.25em;
 }
 
 .plans__title b {
-	color: #7d7b7b;
-	font-family: 'Myriad Pro - Semibold';
+    color: #7d7b7b;
+    font-family: 'Myriad Pro - Semibold';
 }
 
 .plans__price {
-	color: #4e4e4e;
-	font-size: 2rem;
-	line-height: 1.5;
-	letter-spacing: -0.72px;
-	margin-bottom: 0.75em;
+    color: #4e4e4e;
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: -0.72px;
+    margin-bottom: 0.75em;
 }
 
 .plans__price .price {
-	color: #b38e48;
-	font-size: 32px;
+    color: #b38e48;
+    font-size: 32px;
 }
 
 .plans__details-bottom {
-	display: inline-block;
-	color: #e9ede9;
-	padding: 11px 18px;
-	border-radius: 13px;
-	background-color: #71ae5a;
+    display: inline-block;
+    color: #e9ede9;
+    padding: 11px 18px;
+    border-radius: 13px;
+    background-color: #71ae5a;
 }
 
 .plans__details-bottom:hover {
-	background-color: #6BC04B;
+    background-color: #6BC04B;
 }
 
 .footer {
-	background-color: #e9ede9;
-	color: #747373;
-	font-size: 18px;
-	padding: 6rem 0;
+    background-color: #e9ede9;
+    color: #747373;
+    font-size: 18px;
+    padding: 6rem 0;
 }
 
 .footer__wrap {
-	max-width: 980px;
-	margin: 0 auto;	
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 .footer__link {
-	display: inline-block;
-	font-family: 'Myriad Pro - Semibold';
-	margin-right: 30px;
+    display: inline-block;
+    font-family: 'Myriad Pro - Semibold';
+    margin-right: 30px;
 }
 
 .footer__link:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .copyright {
-	color: #958f8f;
-	line-height: 2;
+    color: #958f8f;
+    line-height: 2;
 }
 
 .up {
-	display: block;
-	height: 48px;
-	width: 48px;
-	border-radius: 50%;
-	background-color: #71ae5a;
-	position: fixed;
-	bottom: 8rem;
-	right: 2rem;
+    display: block;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #71ae5a;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
 }
 
 .up::before {
-	content: '';
-	font-size: 0;
-	width: 0;
-	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 15px solid #e9ede9;
-	position: relative;
-	top: 3px;
-	left: 15px;
+    content: '';
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #e9ede9;
+    position: relative;
+    top: 3px;
+    left: 15px;
 }
 
 .up:hover {
-	background-color: #6BC04B;
+    background-color: #6BC04B;
 }
