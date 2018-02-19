@@ -5,6 +5,12 @@ html {
     background-color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -32,6 +38,8 @@ section {
     color: #fff;
     background-color: #528354;
     background-image: url('../img/bg-header.png');
+    background-position: top center;
+    background-size: cover;
     padding: 1.5rem 0 6.5rem;
 }
 
@@ -271,6 +279,12 @@ section {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer__wrap {
+        padding: 0 2%;
+    }
+}
+
 .footer__link {
     display: inline-block;
     font-family: 'Myriad Pro - Semibold';
@@ -293,8 +307,8 @@ section {
     border-radius: 50%;
     background-color: #71ae5a;
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 .up::before {
