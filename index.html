@@ -5,98 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Hydric</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bubn.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
 <body>
-    <header class="header">
-
-        <div class="header__wrap clearfix">
-            <a href="/" class="logo">Hydric</a>
-            <nav class="nav">
-                <!-- <a href="#" class="list__item">Home</a> -->
-                <!-- <a href="#" class="list__item">About</a> -->
-                <!-- <a href="#" class="list__item">Features</a> -->
-                <!-- <a href="#" class="list__item">Nutrition</a> -->
-                <!-- <a href="#" class="list__item list__item_bottom">Buy Now</a> -->
-                <ul class="list">
-                    <li class="list__item">Home</li>
-                    <li class="list__item">About</li>
-                    <li class="list__item">Features</li>
-                    <li class="list__item">Nutrition</li>
-                    <li class="list__item list__item_bottom">Buy now</li>
-                </ul>
-            </nav>
-        </div>
-
-        <h1 class="title">
-            Sweet and delicious
-        </h1>
-        <object data="img/melon01.png" type="" class="melon"></object>
-
-    </header>
-    <main>
-        <section class="flavor">
-
-            <h2 class="title">
-                More flavor and juiciness
-            </h2>
-            <p class="title__caption">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p class="title__caption">
-                Lorem ipsum dolor sit amet.
-            </p>
-            <object data="img/melon02.png" type="" class="melon"></object>
-
-        </section>
-        <section class="health">
-
-            <h2 class="title">
-                Pure health
-            </h2>
-            <p class="title__caption">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <object data="img/melon03.png" type="" class="melon"></object>
-
-        </section>
-        <section class="plans">
-
-            <h2 class="title">
-                Meet our plans
-            </h2>
-            <p class="title__caption">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p class="title__caption">
-                Lorem ipsum dolor sit amet.
-            </p>
-            <div class="wrap">
-            	<div class="plans__item">
-            		<h4 class="plans__name">Lite</h4>
-            		<p class="plans__price">
-            			Starting at</br><span class="price">$ 6.90</span>
-            		</p>
-            		<a href="" class="plans__details-bottom">View details</a>
-            	</div>
-            </div>
-
-        </section>
-    </main>
-    <footer class="footer">
-
-        <ul class="list">
-        	<li class="list__item">Home</li>
-        	<li class="list__item">About</li>
-        	<li class="list__item">Features</li>
-        	<li class="list__item">Nutrition</li>
-        	<li class="list__item">Contact us</li>
-        </ul>
-        <p class="copyright">&#169 2015 Hydric. All rights reserved.</p>
-
-    </footer>
+	<div class="wrap">
+	    <header class="header">
+	        <div class="header__wrap">
+	            <a href="/" class="logo">Hydric</a>
+	            <nav class="nav">
+	                <a class="nav__item" href="#">Home</a>
+	                <a class="nav__item" href="#">About</a>
+	                <a class="nav__item" href="#">Features</a>
+	                <a class="nav__item hover" href="#">Nutrition</a>
+	                <a class="nav__item hover" href="#">Buy now</a>
+	            </nav>
+	        </div>
+	        <h1 class="title">Sweet and delicious</h1>
+	        <div class="melon__wrap">
+		        <object data="img/melon01.png" type="" class="melon"></object>
+	        </div>
+	    </header>
+	    <main>
+	        <section class="flavor">
+	            <h2 class="title">More flavor and juiciness</h2>
+	            <p class="title__caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	            <p class="title__caption">Lorem ipsum dolor sit amet.</p>
+	            <div class="melon__wrap">
+		            <object data="img/melon02.png" type="" class="melon"></object>
+		        </div>
+	        </section>
+	        <section class="health">
+	            <h2 class="title">Pure health</h2>
+	            <p class="title__caption">Lorem ipsum dolor sit amet.</p>
+		            <div class="melon__wrap">
+			            <object data="img/melon03.png" type="" class="melon"></object>
+			            <p class="melon__component melon__protein">Protein  0,63g</p>
+			            <p class="melon__component melon__water">Water  92%</p>
+			            <p class="melon__component melon__calories">Calories  35kcal</p>
+			            <p class="melon__component melon__fat">Fat 0,63g</p>
+		            </div>
+	        </section>
+	        <section class="plans">
+	            <h2 class="title">Meet our plans</h2>
+	            <p class="title__caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	            <p class="title__caption">Lorem ipsum dolor sit amet.</p>
+	            <div class="plans__wrap">
+	            	<div class="plans__item">
+	            		<h4 class="plans__title"><b>Hydric</b>Lite</h4>
+	            		<p class="plans__price">
+	            			Starting at</br><span class="price">$ 6.90</span>
+	            		</p>
+	            		<a href="" class="plans__details-bottom">View details</a>
+	            	</div>
+	            	<div class="plans__item">
+	            		<h4 class="plans__title"><b>Hydric</b>Pro</h4>
+	            		<p class="plans__price">
+	            			Starting at</br><span class="price">$ 22.90</span>
+	            		</p>
+	            		<a href="" class="plans__details-bottom">View details</a>
+	            	</div>
+	            	<div class="plans__item">
+	            		<h4 class="plans__title"><b>Hydric</b>Star</h4>
+	            		<p class="plans__price">
+	            			Starting at</br><span class="price">$ 42.90</span>
+	            		</p>
+	            		<a href="" class="plans__details-bottom">View details</a>
+	            	</div>
+	            </div>
+	        </section>
+	    </main>
+	    <footer class="footer">
+	    	<div class="footer__wrap">
+	            <a class="footer__link" href="#">Home</a>
+	            <a class="footer__link" href="#">About</a>
+	            <a class="footer__link" href="#">Features</a>
+	            <a class="footer__link" href="#">Nutrition</a>
+	            <a class="footer__link" href="#">Contact us</a>
+		        <p class="copyright">&#169 2015 Hydric. All rights reserved.</p>
+	    	</div>
+	    </footer>
+	    <a class="up" href="#"></a>
+    </div>
 </body>
 </html>

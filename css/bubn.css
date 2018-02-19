@@ -1,4 +1,10 @@
-.clearfix::after { 
+
+ a {
+ 	color: inherit;
+}
+
+.clearfix::after,
+.header__wrap::after { 
    content: '';
    overflow: hidden; 
    display: block; 
