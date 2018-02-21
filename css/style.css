@@ -5,12 +5,6 @@ html {
     background-color: #fff;
 }
 
-@media screen and (max-width: 768px) {
-    html {
-        font-size: 14px;
-    }
-}
-
 h1,
 h2,
 h3,
@@ -22,7 +16,6 @@ h6 {
 }
 
 section {
-    /* padding: 6.25rem 0; */
     padding: 120px 0;
     /* letter-spacing: -0.72px; */
 }
@@ -97,7 +90,7 @@ section {
     margin: 12px auto;
 }
 
-.melon__wrap {
+.section__wrap {
     position: relative;
 }
 
@@ -141,71 +134,104 @@ section {
 
 .melon__component {
     position: absolute;
-    top: 20px;
-    left: 50%;
-    margin-left: 83px;
     font-size: 22px;
     color: #e5e5e5;
     letter-spacing: -0.72px;
+    border-bottom: 0.25rem solid;
+    line-height: 0.8em;
 }
 
-.melon__component::after {
+.melon__component::before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/melon-shape.png');
+    background-size: cover;
+}
+
+.melon__protein::after,
+.melon__calories::after {
     position: relative;
     content: '';
     display: block;
-    width: 220px;
-    height: 70px;
-    background-image: url('../img/melon-sprite.png');
+    border-bottom: 0.2em solid;
+    top: 4px;
 }
 
 .melon__protein {
+    left: 50%;
+    bottom: 50%;
     text-align: right;
+    margin-left: 170px;
+    padding-left: 20px;
+    border-color: #d4fa7a;
+}
+
+.melon__protein::before {
+    top: 81px;
+    right: 99px;
+    width: 30px;
+    height: 30px;
 }
 
 .melon__protein::after {
-    background-position: -387px 0px;
+    border-color: #d4fa7a;
+    width: 65px;
+    right: 85px;
+    transform: rotate(-33deg);
+    transform-origin: 65px 0;
 }
 
 .melon__water {
-    top: 130px;
-    margin-left: 20px;
+    bottom: 20%;
+    left: 50%;
     text-align: right;
+    margin-left: 82px;
+    padding-left: 67px;
+    border-color: #8cdbf2;
 }
 
-.melon__water::after {
-    background-position: -323px -100px;
-    height: 25px;
-    top: -11px;
+.melon__water::before {
+    top: 31px;
+    right: 90px;
 }
 
 .melon__calories {
-    margin: 0;
-    margin-right: 98px;
-    left: auto;
+    margin-right: 155px;
+    padding-right: 20px;
     right: 50%;
-    top: 106px;
+    bottom: 26.5%;
+    border-color: #fd6363;
+}
+
+.melon__calories::before {
+    width: 32px;
+    height: 32px;
+    top: 26px;
+    left: 168px;
 }
 
 .melon__calories::after {
-    background-position: 0px -55px;
-    height: 36px;
-    top: -31px;
-    width: 205px;
+    border-color: #fd6363;
+    width: 27px;
+    left: 143px;
+    transform: rotate(-19deg);
+    transform-origin: 0 0;
 }
 
 .melon__fat {
-    margin: 0;
-    left: auto;
     right: 50%;
-    top: 190px;
-    margin-right: -9px;
+    bottom: 4%;
+    margin-right: 12px;
+    padding-right: 100px;
+    border-color: #fef45a;
 }
 
-.melon__fat::after {
-    background-position: -112px -160px;
-    height: 25px;
-    width: 200px;
-    top: -10px;
+.melon__fat::before {
+    top: 30px;
+    left: 174px;
 }
 
 .plans {
@@ -277,12 +303,6 @@ section {
 .footer__wrap {
     max-width: 980px;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px) {
-    .footer__wrap {
-        padding: 0 2%;
-    }
 }
 
 .footer__link {
