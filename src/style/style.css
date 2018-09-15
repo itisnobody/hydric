@@ -1,0 +1,134 @@
+html {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+body {
+    min-width: 240px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 3rem;
+    font-weight: unset;
+}
+
+@media screen and (max-width: 480px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 2.2rem;
+    }
+}
+
+a {
+    color: inherit;
+}
+
+section {
+    padding: 120px 0;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+}
+
+.title {
+    text-align: center;
+    letter-spacing: -1.07px;
+    margin-bottom: 1rem;
+}
+
+.title__caption {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 12px auto;
+}
+
+@media screen and (max-width: 480px) {
+    .title__caption {
+        font-size: 1.2rem;
+    }
+}
+
+.section__wrap {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .section__wrap {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.melon {
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .melon {
+        width: 100%;
+    }
+}
+
+.up {
+    display: block;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #71ae5a;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 640px) {
+    .up {
+        bottom: 20px;
+    }
+}
+
+.up::before {
+    content: '';
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #e9ede9;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.up:hover {
+    background-color: #6BC04B;
+}
+
+.clearfix::after,
+.header__wrap::after {
+    content: '';
+    overflow: hidden;
+    display: block;
+    clear: both;
+}

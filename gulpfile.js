@@ -90,7 +90,7 @@ gulp.task('images', function () {
 
 
 gulp.task('default', function(callback) {
-    runSequence('clean', 'copy',
+    runSequence('copy',
         ['html', 'style', 'images'],
         'server',
         callback);
