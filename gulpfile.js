@@ -14,20 +14,17 @@ var path = {
     dev: {
         clean: './dev',
         html: 'dev/',
-        css: 'dev/css/',
         fonts: 'dev/fonts/',
-        img: 'dev/img/'
+        img: 'dev/img/',
+        style: 'dev/css/'
     },
     src: {
         html: 'src/*.html',
-        sass: ['src/style/**/*.scss', 'src/style/**/*.sass'],
         fonts: 'src/fonts/**/*.*',
-        img: 'src/img/**/*.*'
-    },
-    watch: {
-        html: 'src/**/*.html',
-        style: 'src/style/**/*.scss'
-    },
+        img: 'src/img/**/*.*',
+        style: 'src/style/**/*.css',
+        sass: ['src/style/**/*.scss', 'src/style/**/*.sass']
+    }
 };
 
 // Clean
@@ -43,7 +40,8 @@ gulp.task('server', function () {
         port: 3001
     });
     gulp.watch(path.src.html, ['html']);
-    gulp.watch(path.src.sass, ['style']);
+    gulp.watch(path.src.sass, ['sass']);
+    gulp.watch(path.src.style, ['css']);
 });
 
 // Copy
@@ -59,27 +57,35 @@ gulp.task('html', function () {
         .pipe(reload({stream: true}));
 });
 
-//Style -- Sass/Scss to CSS
-gulp.task('style', function () {
-    gulp.src(path.src.sass)
-        .pipe(sourcemaps.init())
-        .pipe(sass())
-        .pipe(prefixer())
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest(path.dev.css))
-        .pipe(reload({stream: true}));
-});
-
 //Images
 gulp.task('images', function () {
     gulp.src(path.src.img)
-        .pipe(imagemin({
-            progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            use: [pngquant()],
-            interlaced: true
-        }))
+        // .pipe(imagemin({
+        //     progressive: true,
+        //     svgoPlugins: [{removeViewBox: false}],
+        //     use: [pngquant()],
+        //     interlaced: true
+        // }))
         .pipe(gulp.dest(path.dev.img))
+        // .pipe(reload({stream: true}));
+});
+
+// Sass/Scss to CSS
+gulp.task('sass', function () {
+    gulp.src(path.src.sass)
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        // .pipe(prefixer())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(path.dev.style))
+        .pipe(reload({stream: true}));
+});
+
+// Style
+gulp.task('css', function () {
+    gulp.src(path.src.style)
+        // .pipe(prefixer())
+        .pipe(gulp.dest(path.dev.style))
         .pipe(reload({stream: true}));
 });
 
@@ -91,7 +97,7 @@ gulp.task('images', function () {
 
 gulp.task('default', function(callback) {
     runSequence('copy',
-        ['html', 'style', 'images'],
+        ['html', 'images', 'css', 'sass'],
         'server',
         callback);
 });

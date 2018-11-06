@@ -13,18 +13,13 @@
 }
 
 .flavor .melon {
-    margin: 4.5rem auto 0;
+    margin: 21px auto;
 }
 
 .health {
     color: #fff;
-    padding: 6rem 0;
     background-color: #2b342b;
     position: relative;
-}
-
-.health .melon {
-    margin-top: 3rem;
 }
 
 .melon__component {
@@ -57,7 +52,7 @@
 
 .melon__protein {
     left: 50%;
-    bottom: 50%;
+    bottom: 49%;
     text-align: right;
     margin-left: 170px;
     padding-left: 20px;
@@ -80,7 +75,7 @@
 }
 
 .melon__water {
-    bottom: 20%;
+    bottom: 22.5%;
     left: 50%;
     text-align: right;
     margin-left: 82px;
@@ -97,7 +92,7 @@
     margin-right: 155px;
     padding-right: 20px;
     right: 50%;
-    bottom: 26.5%;
+    bottom: 30%;
     border-color: #fd6363;
 }
 
@@ -118,7 +113,7 @@
 
 .melon__fat {
     right: 50%;
-    bottom: 4%;
+    bottom: 19%;
     margin-right: 12px;
     padding-right: 100px;
     border-color: #fef45a;
@@ -201,28 +196,17 @@
 }
 
 .plans {
-    padding-bottom: 1rem;
     background-color: #e9ede9;
 }
 
-.plans__wrap {
-    max-width: 980px;
-    font-size: 0;
-    text-align: center;
-    margin: 3rem auto;
-}
-
-@media screen and (max-width: 768px) {
-    .plans__wrap {
-        margin: 0 auto;
-    }
+.plans__list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .plans__item {
-    display: inline-block;
-    font-size: 1rem;
-    width: 31%;
-    margin: 3rem 1%;
+    width: 32%;
+    max-width: 300px;
     background-color: #d3cfcf;
     text-align: center;
     padding: 2em 0 2.5em;
@@ -240,7 +224,7 @@
 .plans__title {
     color: #afacac;
     font-size: 2rem;
-    margin-bottom: 1.25em;
+    margin: 0 0 1.25em;
 }
 
 .plans__title b {
@@ -264,8 +248,8 @@
 .plans__details-buttom {
     display: inline-block;
     color: #e9ede9;
-    padding: 11px 18px;
-    border-radius: 13px;
+    padding: 8px 16px;
+    border-radius: 12px;
     background-color: #71ae5a;
 }
 

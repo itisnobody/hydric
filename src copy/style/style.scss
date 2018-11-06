@@ -1,0 +1,211 @@
+@import "fonts";
+
+html {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+body {
+    min-width: 240px;
+}
+
+body, p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 3rem;
+    font-weight: unset;
+}
+
+@media screen and (max-width: 480px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 2.2rem;
+    }
+}
+
+a {
+    color: inherit; 
+  text-decoration: none;
+}
+
+section {
+    padding: 120px 0;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+}
+
+.title {
+    text-align: center;
+    letter-spacing: -1.07px;
+    margin: 0 0 1rem;
+}
+
+.title__caption {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 12px auto;
+}
+
+@media screen and (max-width: 480px) {
+    .title__caption {
+        font-size: 1.2rem;
+    }
+}
+
+.section__wrap {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .section__wrap {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.melon {
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .melon {
+        width: 100%;
+    }
+}
+
+.up {
+    display: block;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #71ae5a;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 640px) {
+    .up {
+        bottom: 20px;
+    }
+}
+
+.up::before {
+    content: '';
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #e9ede9;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.up:hover {
+    background-color: #6BC04B;
+}
+
+.clearfix::after,
+.header__wrap::after {
+    content: '';
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+
+
+@import "header";
+@import "main";
+@import "footer";
+
+// @import "config";
+// @import "core";
+
+// @import "base";
+
+
+// @import "components/button";
+// @import "components/link";
+// @import "components/form";
+
+
+// @import "blocks/header";
+// @import "blocks/main";
+// @import "blocks/aside";
+// @import "blocks/map";
+// @import "blocks/footer";
+
+
+// @import "components/icon";
+// @import "components/animate";
+// @import "animate";
+
+
+//Структура Bootstrap
+
+//@import "functions";    Какие-то расчеты
+//@import "variables";    Переменные
+//@import "mixins";
+//@import "root";
+//@import "reboot";
+//@import "type";
+//@import "images";
+//@import "code";
+//@import "grid";
+//@import "tables";
+//@import "forms";
+//@import "buttons";
+//@import "transitions";
+//@import "dropdown";
+//@import "button-group";
+//@import "input-group";
+//@import "custom-forms";
+//@import "nav";
+//@import "navbar";
+//@import "card";
+//@import "breadcrumb";
+//@import "pagination";
+//@import "badge";
+//@import "jumbotron";
+//@import "alert";
+//@import "progress";
+//@import "media";
+//@import "list-group";
+//@import "close";
+//@import "modal";
+//@import "tooltip";
+//@import "popover";
+//@import "carousel";
+//@import "utilities";
+//@import "print";

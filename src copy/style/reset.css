@@ -6,7 +6,7 @@ dd, ol, ul, li, fieldset, form, label, legend, table, caption,
 tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
 embed, figure, figcaption, footer, header, menu, nav,
 output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   border: 0;
   vertical-align: baseline;
@@ -17,12 +17,12 @@ body, html {
   min-height: 100%;
   line-height: 1;
   text-transform: none;
-  text-rendering: auto;
-  visibility: visible;
+  /* text-rendering: auto; */
+  visibility: visible;/* 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-size-adjust: none;
-  -webkit-text-size-adjust: none;
+  -webkit-text-size-adjust: none; */
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -47,13 +47,13 @@ a img {
 
 img {
   max-width: 100%;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   vertical-align: middle;
 }
 
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 a:active, a:hover {
