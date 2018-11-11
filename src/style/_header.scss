@@ -1,7 +1,7 @@
 .header {
 	color: #fff;
 	background-color: #518455;
-	background-image: url('../img/bg-header.png');
+	background-image: url('../img/bg-header.jpg');
 	background-position: bottom center;
 	background-size: cover;
 
@@ -34,7 +34,10 @@
 		left: -56px;
 		width: 56px;
 		height: 1.5em;
-		background: url('../img/logo.png') center no-repeat;
+		background-image: url('../img/logo.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
 	}
 }
 

@@ -1,0 +1,20 @@
+<svg width="279" height="230" viewBox="0 0 279 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="melon03">
+<g id="Group">
+<path id="Vector" d="M23.5 115C24.1015 56.4212 82.5 20.5 140 20.5C197.5 20.5 255.5 60 255.5 115.5C255.5 171 198.651 211.275 140 211.5C80.9234 211.727 22.8934 174.074 23.5 115Z" fill="url(#paint0_radial)"/>
+<path id="Vector 2" d="M45 60C83.5179 42.9211 91 36 140 34.5C189 33 233 60 233 60C159.085 43.3439 117.927 43.5757 45 60Z" fill="#398639"/>
+<g id="Vector 3">
+<path d="M28 90.0002C108 74 165.5 73 251 90.0002C251 90.0002 194.5 63.5 140 63.5C85.5 63.5 28 90.0002 28 90.0002Z" fill="#398639"/>
+<path d="M23.5 115C128.5 94.5 187 101 255.5 115C163.359 132.022 112.555 132.025 23.5 115Z" fill="#398639"/>
+<path d="M27.5 141C115.024 157.276 163.959 157.302 251 141C163.715 176.531 114.781 176.474 27.5 141Z" fill="#398639"/>
+<path d="M45 172C116 190 166.237 188.72 233 172C160.826 207.329 119.657 207.065 45 172Z" fill="#398639"/>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(139.498 116) rotate(90) scale(95.5005 116.002)">
+<stop offset="0.441989" stop-color="#8FCB58"/>
+<stop offset="1" stop-color="#69C64C"/>
+</radialGradient>
+</defs>
+</svg>
