@@ -1,63 +1,68 @@
 <svg width="56" height="33" viewBox="0 0 56 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="logo" clip-path="url(#clip0)">
-<path id="Vector 2" d="M-2.39071e-06 0C-0.999997 43.5 57 44.5 56 0H-2.39071e-06Z" fill="#63C54B"/>
-<path id="Vector" d="M0 -0.5H-0.720852L-0.468312 0.175168C6.4537 18.6812 18.4881 25.86 29.9939 24.7256C41.4497 23.5961 52.1565 14.2373 56.478 0.146606L56.6763 -0.5H56H0Z" fill="#F73D4F" stroke="#BBF179"/>
-<ellipse id="Ellipse" cx="38.9502" cy="13.2165" rx="1" ry="2" transform="rotate(34.1444 38.9502 13.2165)" fill="url(#paint0_radial)"/>
-<ellipse id="Ellipse_2" cx="35.1373" cy="13.831" rx="1" ry="2.4285" transform="rotate(25.8985 35.1373 13.831)" fill="url(#paint1_radial)"/>
-<ellipse id="Ellipse_3" cx="26.4484" cy="10.5755" rx="1" ry="2.4285" transform="rotate(11.0876 26.4484 10.5755)" fill="url(#paint2_radial)"/>
-<ellipse id="Ellipse_4" cx="23.4484" cy="9.5755" rx="1" ry="2.4285" transform="rotate(-7.87898 23.4484 9.5755)" fill="url(#paint3_radial)"/>
-<ellipse id="Ellipse_5" cx="18.3235" cy="3.54267" rx="1" ry="2.4285" transform="rotate(45.2615 18.3235 3.54267)" fill="url(#paint4_radial)"/>
-<ellipse id="Ellipse_6" cx="18.5993" cy="15.5916" rx="1.24204" ry="2.4285" transform="rotate(45.2615 18.5993 15.5916)" fill="url(#paint5_radial)"/>
-<ellipse id="Ellipse_7" cx="28.5993" cy="14.5916" rx="1.24204" ry="2.4285" transform="rotate(68.3102 28.5993 14.5916)" fill="url(#paint6_radial)"/>
-<ellipse id="Ellipse_8" cx="30.7156" cy="4.05165" rx="1.24204" ry="2.4285" transform="rotate(54.9011 30.7156 4.05165)" fill="url(#paint7_radial)"/>
-<ellipse id="Ellipse_9" cx="45.647" cy="5.05483" rx="1.49455" ry="2.68755" transform="rotate(35.6703 45.647 5.05483)" fill="url(#paint8_radial)"/>
-<ellipse id="Ellipse_10" cx="10.8789" cy="7.04666" rx="0.965997" ry="1.836" transform="rotate(-37.1648 10.8789 7.04666)" fill="url(#paint9_radial)"/>
-<ellipse id="Ellipse_11" cx="37.3557" cy="7.9083" rx="1.11921" ry="1.95472" transform="rotate(-39.9106 37.3557 7.9083)" fill="url(#paint10_radial)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-1" y="0" width="57" height="34">
+<path id="Mask of contur" d="M0.0127672 0C-0.986315 43.5 56.9863 44.5 55.9872 0H0.0127672Z" fill="#63C54B"/>
+</mask>
+<g mask="url(#mask0)">
+<path id="Vector 2" d="M0.0127672 0C-0.986315 43.5 56.9863 44.5 55.9872 0H0.0127672Z" fill="#63C54B"/>
+<path id="Vector" d="M0 -0.5H-0.724441L-0.467493 0.177342C6.45651 18.4298 18.4924 25.5048 29.9932 24.3867C41.4453 23.2734 52.1544 14.0472 56.4774 0.148503L56.6791 -0.5H56H0Z" fill="#F73D4F" stroke="#BBF179"/>
+<ellipse id="Ellipse" cx="38.7107" cy="13.2165" rx="1" ry="2" transform="rotate(34 38.7107 13.2165)" fill="url(#paint0_radial)"/>
+<ellipse id="Ellipse_2" cx="34.8076" cy="13.6857" rx="1" ry="2.5" transform="rotate(26 34.8076 13.6857)" fill="url(#paint1_radial)"/>
+<ellipse id="Ellipse_3" cx="26.5006" cy="10.6456" rx="1" ry="2.5" transform="rotate(11 26.5006 10.6456)" fill="url(#paint2_radial)"/>
+<ellipse id="Ellipse_4" cx="22.3382" cy="9.33932" rx="1" ry="2.5" transform="rotate(-8 22.3382 9.33932)" fill="url(#paint3_radial)"/>
+<ellipse id="Ellipse_5" cx="18.9393" cy="3.47487" rx="1" ry="2.5" transform="rotate(45 18.9393 3.47487)" fill="url(#paint4_radial)"/>
+<ellipse id="Ellipse_6" cx="19.1161" cy="15.6476" rx="1.25" ry="2.5" transform="rotate(45 19.1161 15.6476)" fill="url(#paint5_radial)"/>
+<ellipse id="Ellipse_7" cx="28.1503" cy="15.0955" rx="1.25" ry="2.5" transform="rotate(68 28.1503 15.0955)" fill="url(#paint6_radial)"/>
+<ellipse id="Ellipse_8" cx="30.6733" cy="3.95788" rx="1.25" ry="2.5" transform="rotate(55 30.6733 3.95788)" fill="url(#paint7_radial)"/>
+<ellipse id="Ellipse_9" cx="45.6514" cy="5.10916" rx="1.5" ry="2.75" transform="rotate(35 45.6514 5.10916)" fill="url(#paint8_radial)"/>
+<ellipse id="Ellipse_10" cx="10.8543" cy="6.7958" rx="1" ry="1.75" transform="rotate(-37 10.8543 6.7958)" fill="url(#paint9_radial)"/>
+<ellipse id="Ellipse_11" cx="37.1461" cy="7.8123" rx="1.125" ry="2" transform="rotate(-40 37.1461 7.8123)" fill="url(#paint10_radial)"/>
+</g>
 </g>
 <defs>
-<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(38.9502 13.2165) rotate(90) scale(2 1)">
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(38.7107 13.2165) rotate(90) scale(2 1)">
 <stop offset="0.779006" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(35.1373 13.831) rotate(90) scale(2.4285 1)">
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(34.8076 13.6857) rotate(90) scale(2.5 1)">
 <stop offset="0.779006" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.4484 10.5755) rotate(90) scale(2.4285 1)">
+<radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.5006 10.6456) rotate(90) scale(2.5 1)">
 <stop offset="0.309392" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.4484 9.5755) rotate(90) scale(2.4285 1)">
+<radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(22.3382 9.33932) rotate(90) scale(2.5 1)">
 <stop offset="0.779006" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18.3235 3.54267) rotate(90) scale(2.4285 1)">
+<radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18.9393 3.47487) rotate(90) scale(2.5 1)">
 <stop offset="0.436464" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint5_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18.5993 15.5916) rotate(90) scale(2.4285 1.24204)">
+<radialGradient id="paint5_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.1161 15.6476) rotate(90) scale(2.5 1.25)">
 <stop offset="0.441989" stop-color="#430E11"/>
 <stop offset="0.640884" stop-color="#430E11"/>
 <stop offset="0.779006" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint6_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28.5993 14.5916) rotate(90) scale(2.4285 1.24204)">
+<radialGradient id="paint6_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28.1503 15.0955) rotate(90) scale(2.5 1.25)">
 <stop offset="0.779006" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint7_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(30.7156 4.05165) rotate(90) scale(2.4285 1.24204)">
+<radialGradient id="paint7_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(30.6733 3.95788) rotate(90) scale(2.5 1.25)">
 <stop offset="0.674033" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint8_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(45.647 5.05483) rotate(90) scale(2.68755 1.49455)">
+<radialGradient id="paint8_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(45.6514 5.10916) rotate(90) scale(2.75 1.5)">
 <stop offset="0.469613" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint9_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.8789 7.04666) rotate(90) scale(1.836 0.965997)">
+<radialGradient id="paint9_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.8543 6.7958) rotate(90) scale(1.75 1)">
 <stop offset="0.436464" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint10_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(37.3557 7.9083) rotate(90) scale(1.95472 1.11921)">
+<radialGradient id="paint10_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(37.1461 7.8123) rotate(90) scale(2 1.125)">
 <stop offset="0.480663" stop-color="#430E11"/>
 <stop offset="1" stop-color="#430E11" stop-opacity="0"/>
 </radialGradient>
