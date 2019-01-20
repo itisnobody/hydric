@@ -1,88 +1,88 @@
 .plans {
-    background-color: #e9ede9;
+  background-color: #e9ede9;
 }
 
 .plans .title {
-    color: #4e4e4e;
+  color: #4e4e4e;
 }
 
 .plans .title__caption {
-    color: #737070;
+  color: #737070;
 }
 
 .plans__list {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    @media screen and (max-width: 419px) {
-        flex-flow: column;
-    }
+  @media all and (max-width: 419px) {
+    flex-flow: column;
+  }
 }
 
 .plans__item {
-    width: 32%;
-    max-width: 300px;
-    background-color: #d3cfcf;
-    text-align: center;
-    padding: 2em 0 2.5em;
+  width: 32%;
+  max-width: 300px;
+  background-color: #d3cfcf;
+  text-align: center;
+  padding: 2em 0 2.5em;
 
-    @media screen and (max-width: 639px) {
-        padding: 1em 0 1.5em;
-    }
+  @media all and (max-width: 639px) {
+    padding: 1em 0 1.5em;
+  }
 
-    @media screen and (max-width: 419px) {
-        width: 100%;
-        max-width: 14rem;
-        margin-bottom: 1em;
-    }
+  @media all and (max-width: 419px) {
+    width: 100%;
+    max-width: 14rem;
+    margin-bottom: 1em;
+  }
 }
 
 
 
 .plans__title {
-    color: #afacac;
-    font-size: 2rem;
+  color: #afacac;
+  font-size: 2rem;
 
-    @media screen and (max-width: 479px) {
-        font-size: 24px;
-    }
+  @media all and (max-width: 479px) {
+    font-size: 24px;
+  }
 }
 
 .plans__title b {
-    color: #7d7b7b;
-    font-family: 'Myriad Pro - Semibold', 'Myriad Pro', sans-serif;
-    font-weight: 600;
+  color: #7d7b7b;
+  font-family: 'Myriad Pro - Semibold', 'Myriad Pro', sans-serif;
+  font-weight: 600;
 }
 
 .plans__price {
-    color: #4e4e4e;
-    font-size: 2rem;
-    line-height: 1.5;
-    letter-spacing: -0.72px;
-    margin: 0.75em 0;
+  color: #4e4e4e;
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: -0.72px;
+  margin: 0.75em 0;
 
-    @media screen and (max-width: 479px) {
-        font-size: 24px;
-    }
+  @media all and (max-width: 479px) {
+    font-size: 24px;
+  }
 }
 
 .plans__price .price {
-    color: #b38e48;
+  color: #b38e48;
 }
 
 .plans__details-buttom {
-    display: inline-block;
-    color: #e9ede9;
-    padding: 8px 16px;
-    border-radius: 16px;
-    background-color: #71ae5a;
+  display: inline-block;
+  color: #e9ede9;
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: #71ae5a;
 
-    @media screen and (max-width: 639px) {
+  @media all and (max-width: 639px) {
     padding: 4px 16px;
-    }
+  }
 }
 
 .plans__details-buttom:hover {
-    background-color: #6BC04B;
+  background-color: #6BC04B;
 }

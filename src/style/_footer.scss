@@ -1,11 +1,10 @@
 .footer {
   background-color: #e9ede9;
   color: #747373;
-  // font-size: 16px;
 }
 
 .footer .container {
-  @media screen and (max-width: 767px) {
+  @media all and (max-width: 767px) {
     padding: 0 12px;
   }
 }
@@ -14,13 +13,13 @@
   font-family: 'Myriad Pro - Semibold', 'Myriad Pro', sans-serif;
   font-weight: 600;
 
-  @media screen and (max-width: 479px) {
+  @media all and (max-width: 479px) {
     display: block;
     padding: 0.25em 0.5em;
     border-bottom: 2px solid;
   }
 
-  @media screen and (min-width: 480px) {
+  @media all and (min-width: 480px) {
     font-size: 18px;
     margin-right: 1.5rem;
   }

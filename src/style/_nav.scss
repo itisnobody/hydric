@@ -5,13 +5,13 @@
   line-height: 1.65;
   letter-spacing: -1px;
 
-  @media screen and (min-width: 768px) {
+  @media all and (min-width: 768px) {
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
     // max-width: 34rem;
   }
-  @media screen and (max-width: 767px) {
+  @media all and (max-width: 767px) {
     visibility: hidden;
     position: absolute;
     top: 2em;
@@ -32,7 +32,7 @@
   border: 2px solid #fff0;
   transition: border-color 0.4s cubic-bezier(0, 0.7, 0.5, 1.15);
 
-  @media screen and (min-width: 768px) {
+  @media all and (min-width: 768px) {
     margin-right: 0.5em;
     
     &:last-child {
@@ -43,7 +43,8 @@
       border-color: #fff;
     }
   }
-  @media screen and (max-width: 767px) {
+  
+  @media all and (max-width: 767px) {
     display: block;
     text-align: right;
   }

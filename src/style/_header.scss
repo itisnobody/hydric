@@ -7,7 +7,7 @@
   background: radial-gradient(738.50px at 50% 100%, #528354 0%, rgba(71, 168, 92, 0.3) 70%, rgba(51, 87, 53, 0.15) 100%), #335735;
   padding-top: 12px;
 
-  @media screen and (min-width: 768px) {
+  @media all and (min-width: 768px) {
   padding-top: 2.5rem;
   }
 }

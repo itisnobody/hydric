@@ -1,5 +1,5 @@
 html {
-  // min-width: 320px;
+  min-width: 240px;
   background-color: #fff;
   font-family: 'Myriad Pro', sans-serif;
   font-size: 16px;
@@ -8,7 +8,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-@media screen and (max-width: 639px) {
+@media all and (max-width: 639px) {
   font-size: 14px;
 }
 }
@@ -53,7 +53,7 @@ img {
   margin: 0 auto;
   padding: $padding-y $padding-x;
 
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
   padding: $padding-y/3 $padding-x;
 }
 }
@@ -76,7 +76,7 @@ img {
   line-height: 2rem;
   padding-bottom: 2rem;
 
-@media screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
   padding-bottom: 4rem;
 }
 }
