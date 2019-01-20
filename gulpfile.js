@@ -44,7 +44,7 @@ gulp.task('server', function () {
     gulp.watch(path.src.style, ['css']);
 });
 
-// Copy
+// Copy fonts
 gulp.task('copy', function() {
     gulp.src(path.src.fonts)
         .pipe(gulp.dest(path.dev.fonts))
@@ -62,21 +62,21 @@ gulp.task('images', function () {
     gulp.src(path.src.img)
         // .pipe(imagemin({
         //     progressive: true,
-        //     svgoPlugins: [{removeViewBox: false}],
+            // svgoPlugins: [{removeViewBox: false}],
         //     use: [pngquant()],
         //     interlaced: true
         // }))
         .pipe(gulp.dest(path.dev.img))
-        // .pipe(reload({stream: true}));
+        .pipe(reload({stream: true}));
 });
 
 // Sass/Scss to CSS
 gulp.task('sass', function () {
     gulp.src(path.src.sass)
         .pipe(sourcemaps.init())
-        .pipe(sass())
-        // .pipe(prefixer())
-        .pipe(sourcemaps.write())
+	        .pipe(sass())
+	        .pipe(prefixer())
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.dev.style))
         .pipe(reload({stream: true}));
 });
@@ -84,7 +84,7 @@ gulp.task('sass', function () {
 // Style
 gulp.task('css', function () {
     gulp.src(path.src.style)
-        // .pipe(prefixer())
+        .pipe(prefixer())
         .pipe(gulp.dest(path.dev.style))
         .pipe(reload({stream: true}));
 });

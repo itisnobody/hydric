@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/itisnobody/hydric#readme",
   "dependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "imagemin-pngquant": "^6.0.0",
+    "imagemin-pngquant": "^6.0.1",
     "run-sequence": "^2.2.1"
   }
 }

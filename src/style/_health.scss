@@ -1,0 +1,302 @@
+.health {
+    color: #fff;
+    background-color: #2b342b;
+    position: relative;
+}
+
+.components {
+  position: relative;
+}
+
+.components__list {
+  @media all and (min-width: 481px) {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.components__item {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  display: list-item;
+  list-style: none;
+
+/*    Базовые отступы    */
+  span {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  @media all and (max-width: 480px) {
+    padding-left: 32px;
+    background: url(../img/shape.png) no-repeat 0 50%;
+    background-image: url(../img/shape.svg);
+  }
+
+  @media all and (min-width: 481px) {
+    display: inline-block;
+    position: absolute;
+
+/*    Круги    */
+    &::before {
+      content: '';
+      display: inline-block;
+      height: 24px;
+      width: 24px;
+      background: url(../img/shape.svg) center center no-repeat;
+      background-size: contain;
+      position: absolute;
+      z-index: 10;
+    }
+
+/*    Подчеркивание   */
+    &::after {
+      content: '';
+      display: block;
+      border-top: 3px solid;
+      position: relative;
+      bottom: 3px;
+    }
+
+
+
+/*    Protein    */
+    &:nth-child(1) {
+      top: 0;
+      left: 50%;
+      margin-left: 104px;
+      // margin-left: 132px;
+
+      &::before {
+        bottom: -20px;
+        left: -48px;
+      }
+
+      &::after {
+        height: 32px;
+        border-left: 4px solid;
+        border-color: #d4fa7a;
+        transform: skewX(-45deg);
+        transform-origin: 0 0;
+      }
+    }
+
+/*    Calories    */
+    &:nth-child(2) {
+      top: 49%;
+      right: 50%;
+      margin-right: 96px;
+      // margin-right: 140px;
+
+      &::before {
+        top: -10px;
+        right: -38px;
+      }
+
+      &::after {
+        height: 8px;
+        border-right: 8px solid;
+        border-color: #fd6363;
+        transform: rotateX(180deg) skewX(70deg);
+        transform-origin: 0 0;
+      }
+    }
+
+/*    Water    */
+    &:nth-child(3) {
+      top: 54%;
+      left: 50%;
+      margin-left: 82px;
+
+      &::before {
+        top: 13px;
+        left: -24px;
+      }
+
+      &::after {
+        border-color: #8cdbf2;
+      }
+
+      span {
+        padding-left: 56px;
+      }
+    }
+
+/*    Fat    */
+    &:nth-child(4) {
+      top: 82%;
+      right: 50%;
+      margin-right: 16px;
+
+      &::before {
+        top: 13px;
+        right: -24px;
+      }
+
+      &::after {
+        border-color: #fef45a;
+      }
+
+      span {
+        padding-right: 96px;
+      }
+    }
+  }
+}
+
+// .melon__component {
+//     position: absolute;
+//     font-size: 22px;
+//     color: #e5e5e5;
+//     letter-spacing: -0.72px;
+//     border-bottom: 0.25rem solid;
+//     line-height: 0.8em;
+// }
+
+// .melon__component::before {
+//     content: '';
+//     display: block;
+//     position: relative;
+//     width: 24px;
+//     height: 24px;
+//     background-image: url('../img/melon-shape.png');
+//     background-size: cover;
+// }
+
+// .melon__protein::after,
+// .melon__calories::after {
+//     position: relative;
+//     content: '';
+//     display: block;
+//     border-bottom: 0.2em solid;
+//     top: 4px;
+// }
+
+// .melon__protein {
+//     left: 50%;
+//     bottom: 49%;
+//     text-align: right;
+//     margin-left: 170px;
+//     padding-left: 20px;
+//     border-color: #d4fa7a;
+// }
+
+// .melon__protein::before {
+//     top: 81px;
+//     right: 99px;
+//     width: 30px;
+//     height: 30px;
+// }
+
+// .melon__protein::after {
+//     border-color: #d4fa7a;
+//     width: 65px;
+//     right: 85px;
+//     transform: rotate(-33deg);
+//     transform-origin: 65px 0;
+// }
+
+// .melon__water {
+//     bottom: 22.5%;
+//     left: 50%;
+//     text-align: right;
+//     margin-left: 82px;
+//     padding-left: 67px;
+//     border-color: #8cdbf2;
+// }
+
+// .melon__water::before {
+//     top: 31px;
+//     right: 90px;
+// }
+
+// .melon__calories {
+//     margin-right: 155px;
+//     padding-right: 20px;
+//     right: 50%;
+//     bottom: 30%;
+//     border-color: #fd6363;
+// }
+
+// .melon__calories::before {
+//     width: 32px;
+//     height: 32px;
+//     top: 26px;
+//     left: 168px;
+// }
+
+// .melon__calories::after {
+//     border-color: #fd6363;
+//     width: 27px;
+//     left: 143px;
+//     transform: rotate(-19deg);
+//     transform-origin: 0 0;
+// }
+
+// .melon__fat {
+//     right: 50%;
+//     bottom: 19%;
+//     margin-right: 12px;
+//     padding-right: 100px;
+//     border-color: #fef45a;
+// }
+
+// .melon__fat::before {
+//     top: 31px;
+//     left: 174px;
+// }
+
+// @media screen and (max-width: 768px) {
+//     .melon__component {
+//         font-size: 18px;
+//         line-height: 1;
+//     }
+
+//     .melon__calories::before {
+//         top: 28px;
+//         left: 144px;
+//     }
+
+//     .melon__calories::after {
+//         left: 119px;
+//     }
+
+//     .melon__protein::before {
+//         top: 83px;
+//     }
+
+//     .melon__water::before {
+//         top: 31px;
+//     }
+
+//     .melon__fat::before {
+//         left: 160px;
+//         top: 31px;
+//     }
+// }
+
+// @media screen and (max-width: 640px) {
+//     .melon__calories {
+//         margin-right: 100px;
+//     }
+
+//     .melon__protein {
+//         margin-left: 110px;
+//     }
+
+//     .melon__water {
+//         margin-left: 79px;
+//     }
+// }
+
+// @media screen and (max-width: 480px) {
+//     .melon__component {
+//         display: none;
+//     }
+// }

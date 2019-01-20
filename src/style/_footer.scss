@@ -1,67 +1,41 @@
 .footer {
-    background-color: #e9ede9;
-    color: #747373;
-    font-size: 18px;
+  background-color: #e9ede9;
+  color: #747373;
+  // font-size: 16px;
+}
+
+.footer .container {
+  @media screen and (max-width: 767px) {
+    padding: 0 12px;
+  }
 }
 
 .footer__link {
-    display: inline-block;
-    font-family: 'Myriad Pro - Semibold';
-    margin-right: 30px;
-}
+  font-family: 'Myriad Pro - Semibold', 'Myriad Pro', sans-serif;
+  font-weight: 600;
 
-.footer__link:hover {
+  @media screen and (max-width: 479px) {
+    display: block;
+    padding: 0.25em 0.5em;
+    border-bottom: 2px solid;
+  }
+
+  @media screen and (min-width: 480px) {
+    font-size: 18px;
+    margin-right: 1.5rem;
+  }
+
+  &:hover {
     text-decoration: underline;
+    background-color: #d3cfcf;
+  }
 }
 
 .copyright {
-    color: #958f8f;
-    line-height: 2;
-}
+  color: #958f8f;
+  line-height: 2;
 
-@media screen and (max-width: 640px) {
-    .footer__link {
-        display: block;
-        padding: 0.5em 1em;
-        border-bottom: 0.1em solid;
-    }
-
-    .footer__link:hover {
-        text-decoration: none;
-        background-color: #d3cfcf;
-    }
-
-    .copyright {
-        font-size: 1rem;
-        line-height: 2;
-        padding-top: 3rem;
-    }
-}
-
-.up {
-    display: block;
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-    background-color: #71ae5a;
-    position: fixed;
-    right: 12px;
-    bottom: 12px;
-    font-size: 14px;
-
-    &::before {
-        content: '';
-        font-size: 0;
-        width: 0;
-        height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 15px solid #e9ede9;
-        position: relative;
-        left: 15px;
-    }
-
-    &:hover {
-        background-color: #6BC04B;
-    }
+  @media all and (max-width: 767px) {
+    padding: 0.5rem 0;
+  }
 }

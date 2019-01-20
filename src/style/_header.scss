@@ -1,44 +1,51 @@
 .header {
-	color: #fff;
-	background-color: #518455;
-	background-image: url('../img/bg-header.jpg');
-	background-position: bottom center;
-	background-size: cover;
+  color: #fff;
+  background-color: #528354;
+  // background-image: url('../img/bg-header.jpg');
+  // background-position: bottom center;
+  // background-size: cover;
+  background: radial-gradient(738.50px at 50% 100%, #528354 0%, rgba(71, 168, 92, 0.3) 70%, rgba(51, 87, 53, 0.15) 100%), #335735;
+  padding-top: 12px;
 
-	&__container {
-		@include conteiner (0);
-		padding-top: 2rem;
-		line-height: 3rem;
-	    display: flex;
-	    justify-content: space-between;
-	}
-
-	&__content {
-		@include conteiner;
-	}
+  @media screen and (min-width: 768px) {
+  padding-top: 2.5rem;
+  }
 }
+
+
+.top-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  margin: 0 auto;
+  max-width: 976px;
+}
+
 
 .logo {
-	font-family: 'Myriad Pro - Bold', sans-serif;
-	font-size: 32px;
-	line-height: 1.5;
-	padding: 0 12px;
-	position: relative;
-	left: 56px;
+  font-family: 'Myriad Pro - Bold', 'Myriad Pro', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -2px;
+  padding: 0 8px;
+  margin-left: 56px;
+  position: relative;
 
-		&::before {
-		content: '';
-		display: inline-block;
-		position: absolute;
-		top: 0;
-		left: -56px;
-		width: 56px;
-		height: 1.5em;
-		background-image: url('../img/logo.png');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
+    &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -56px;
+    width: 56px;
+    height: 1em;
+    background-image: url('../img/logo.png');
+    background-image: url('../img/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
-
-
