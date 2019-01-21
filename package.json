@@ -26,5 +26,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "imagemin-pngquant": "^6.0.1",
     "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.4"
   }
 }

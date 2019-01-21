@@ -6,13 +6,14 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'),
     sourcemaps = require('gulp-sourcemaps'),
     runSequence = require('run-sequence'),
+	ghPages = require('gulp-gh-pages');
     browserSync = require('browser-sync').create(),
     reload = browserSync.reload;
 
 // Pathes
 var path = {
     dev: {
-        clean: './dev',
+        clean: ['./dev', './.publish'],
         html: 'dev/',
         fonts: 'dev/fonts/',
         img: 'dev/img/',
@@ -100,4 +101,9 @@ gulp.task('default', function(callback) {
         ['html', 'images', 'css', 'sass'],
         'server',
         callback);
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./dev/**/*')
+    .pipe(ghPages());
 });
